@@ -1,0 +1,41 @@
+# =====================================
+# PASSWORD STRENGTH CHECKER
+# =====================================
+
+print("PASSWORD STRENGTH CHECKER\n")
+
+password = input("Enter a password: ")
+
+length = len(password)
+
+has_digit = False
+has_letter = False
+
+for char in password:
+    if char.isdigit():
+        has_digit = True
+
+    if char.isalpha():
+        has_letter = True
+
+if length >= 8 and has_digit and has_letter:
+    print("Strong Password")
+
+elif length >= 6:
+    print("Medium Password")
+
+else:
+    print("Weak Password")
+
+print("\nProgram Completed Successfully!")
+
+
+#output given by the vscode
+
+PASSWORD STRENGTH CHECKER
+
+Enter a password: Python123
+
+Strong Password
+
+Program Completed Successfully!
