@@ -1,0 +1,32 @@
+# =====================================
+# WORD GUESSING GAME
+# =====================================
+
+print("WORD GUESSING GAME\n")
+
+secret_word = "python"
+
+while True:
+
+    guess = input("Guess the word: ").lower()
+
+    if guess == secret_word:
+        print("Congratulations! You guessed correctly.")
+        break
+
+    else:
+        print("Wrong guess. Try again!")
+
+print("\nGame Over!")
+
+
+#output given by the vscode
+WORD GUESSING GAME
+
+Guess the word: java
+Wrong guess. Try again!
+
+Guess the word: python
+Congratulations! You guessed correctly.
+
+Game Over!
