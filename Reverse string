@@ -1,0 +1,22 @@
+# =====================================
+# REVERSE A STRING
+# =====================================
+
+print("REVERSE A STRING\n")
+
+text = input("Enter a string: ")
+
+reverse_text = text[::-1]
+
+print("Reversed String =", reverse_text)
+
+print("\nProgram Completed Successfully!")
+
+#output guven by the vscode
+REVERSE A STRING
+
+Enter a string: Python
+
+Reversed String = nohtyP
+
+Program Completed Successfully!
