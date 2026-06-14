@@ -1,0 +1,33 @@
+# =====================================
+# VOWEL AND CONSONANT COUNTER
+# =====================================
+
+print("VOWEL AND CONSONANT COUNTER\n")
+
+text = input("Enter a word: ").lower()
+
+vowels = 0
+consonants = 0
+
+for ch in text:
+
+    if ch in "aeiou":
+        vowels += 1
+
+    elif ch.isalpha():
+        consonants += 1
+
+print("Vowels =", vowels)
+print("Consonants =", consonants)
+
+print("\nProgram Completed Successfully!")
+
+#output by the vscode
+VOWEL AND CONSONANT COUNTER
+
+Enter a word: Programming
+
+Vowels = 3
+Consonants = 8
+
+Program Completed Successfully!
