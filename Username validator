@@ -1,0 +1,28 @@
+# =====================================
+# USERNAME VALIDATOR
+# =====================================
+
+print("USERNAME VALIDATOR\n")
+
+username = input("Enter a username: ")
+
+if len(username) < 5:
+    print("Username is too short.")
+
+elif not username.isalnum():
+    print("Username should contain only letters and numbers.")
+
+else:
+    print("Valid Username!")
+
+print("\nProgram Completed Successfully!")
+
+
+#output given by vscode
+USERNAME VALIDATOR
+
+Enter a username: bhargavi123
+
+Valid Username!
+
+Program Completed Successfully!
