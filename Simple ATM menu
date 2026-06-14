@@ -1,0 +1,50 @@
+# =====================================
+# SIMPLE ATM MENU
+# =====================================
+
+print("ATM MENU\n")
+
+balance = 5000
+
+print("1. Check Balance")
+print("2. Deposit")
+print("3. Withdraw")
+
+choice = int(input("Enter your choice: "))
+
+if choice == 1:
+    print("Balance =", balance)
+
+elif choice == 2:
+    amount = int(input("Enter amount to deposit: "))
+    balance += amount
+    print("Updated Balance =", balance)
+
+elif choice == 3:
+    amount = int(input("Enter amount to withdraw: "))
+
+    if amount <= balance:
+        balance -= amount
+        print("Updated Balance =", balance)
+    else:
+        print("Insufficient Balance")
+
+else:
+    print("Invalid Choice")
+
+print("\nProgram Completed Successfully!")
+
+
+#output given by the vscode
+ATM MENU
+
+1. Check Balance
+2. Deposit
+3. Withdraw
+
+Enter your choice: 2
+Enter amount to deposit: 1000
+
+Updated Balance = 6000
+
+Program Completed Successfully!
