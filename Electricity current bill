@@ -1,0 +1,27 @@
+# =====================================
+# ELECTRICITY BILL CALCULATOR
+# =====================================
+
+print("ELECTRICITY BILL CALCULATOR\n")
+
+units = int(input("Enter units consumed: "))
+
+if units <= 100:
+    bill = units * 5
+elif units <= 200:
+    bill = units * 7
+else:
+    bill = units * 10
+
+print("Bill Amount = ₹", bill)
+
+print("\nProgram Completed Successfully!")
+
+#output given by the vscode
+ELECTRICITY BILL CALCULATOR
+
+Enter units consumed: 120
+
+Bill Amount = ₹ 840
+
+Program Completed Successfully!
