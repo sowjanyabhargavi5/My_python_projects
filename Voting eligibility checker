@@ -1,0 +1,24 @@
+# =====================================
+# VOTING ELIGIBILITY CHECKER
+# =====================================
+
+print("VOTING ELIGIBILITY CHECKER\n")
+
+age = int(input("Enter your age: "))
+
+if age >= 18:
+    print("You are eligible to vote.")
+else:
+    print("You are not eligible to vote.")
+
+print("\nProgram Completed Successfully!")
+
+
+#output given by the vscode
+VOTING ELIGIBILITY CHECKER
+
+Enter your age: 20
+
+You are eligible to vote.
+
+Program Completed Successfully!
