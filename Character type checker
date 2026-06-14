@@ -1,0 +1,27 @@
+# =====================================
+# CHARACTER TYPE CHECKER
+# =====================================
+
+print("CHARACTER TYPE CHECKER\n")
+
+char = input("Enter a character: ")
+
+if char.isalpha():
+    print("It is an Alphabet")
+
+elif char.isdigit():
+    print("It is a Digit")
+
+else:
+    print("It is a Special Character")
+
+print("\nProgram Completed Successfully!")
+
+#output given by the code
+CHARACTER TYPE CHECKER
+
+Enter a character: A
+
+It is an Alphabet
+
+Program Completed Successfully!
