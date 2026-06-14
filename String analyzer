@@ -1,0 +1,43 @@
+# =====================================
+# STRING ANALYZER
+# =====================================
+
+print("STRING ANALYZER\n")
+
+text = input("Enter a string: ")
+
+vowels = 0
+
+for char in text.lower():
+
+    if char in "aeiou":
+        vowels += 1
+
+print("\nRESULTS")
+print("Length of String :", len(text))
+print("Uppercase        :", text.upper())
+print("Lowercase        :", text.lower())
+print("Number of Vowels :", vowels)
+
+if text == text[::-1]:
+    print("Palindrome       : Yes")
+else:
+    print("Palindrome       : No")
+
+print("\nProgram Completed Successfully!")
+
+
+#output from the vscode
+
+STRING ANALYZER
+
+Enter a string: madam
+
+RESULTS
+Length of String : 5
+Uppercase        : MADAM
+Lowercase        : madam
+Number of Vowels : 2
+Palindrome       : Yes
+
+Program Completed Successfully!
