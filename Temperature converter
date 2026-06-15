@@ -39,8 +39,13 @@ Temperature in Fahrenheit = 98.6
 Enter your choice (1 or 2): 2
 Enter temperature in Fahrenheit: 98.6
 
+
 #output given by the vscode
-1. Celsius to Fahrenheit
-2. Fahrenheit to Celsius
-Enter your choice (1 or 2): 2
-Enter temperature in Fahrenheit: 98.6
+Temperature in Celsius = 37.0
+
+
+
+
+
+
+
