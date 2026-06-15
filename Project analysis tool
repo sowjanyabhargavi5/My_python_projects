@@ -1,0 +1,29 @@
+# Number Analysis Tool
+
+def square(num):
+    return num * num
+
+def cube(num):
+    return num * num * num
+
+def even_or_odd(num):
+    if num % 2 == 0:
+        return "Even"
+    else:
+        return "Odd"
+
+number = int(input("Enter a number: "))
+
+print("\n===== NUMBER ANALYSIS =====")
+print("Square:", square(number))
+print("Cube:", cube(number))
+print("Type:", even_or_odd(number))
+
+#input entered by me 
+Enter a number: 5
+
+#output given by the vscode
+===== NUMBER ANALYSIS =====
+Square: 25
+Cube: 125
+Type: Odd
