@@ -1,0 +1,36 @@
+#Demonstrates:
+
+* Simple functions
+* Parameters
+* Return values
+* Default arguments
+* Keyword arguments
+
+
+
+# Function Showcase
+
+def greet():
+    print("Welcome to Python")
+
+def student(name, age=18):
+    return f"Name: {name}, Age: {age}"
+
+greet()
+
+info1 = student("Souzan")
+info2 = student(age=20, name="Alex")
+
+print(info1)
+print(info2)
+
+#what i entered in terminal
+Enter first student name: Souzan
+Enter first student age: 18
+Enter second student name: Alex
+Enter second student age: 20
+
+#output given by the vscode
+Welcome to Python
+Name: Souzan, Age: 18
+Name: Alex, Age: 20
