@@ -1,0 +1,24 @@
+# Personal Profile Generator
+
+def create_profile(name, age, course):
+    return f"Name: {name}\nAge: {age}\nCourse: {course}"
+
+name = input("Enter your name: ")
+age = int(input("Enter your age: "))
+course = input("Enter your course: ")
+
+profile = create_profile(name, age, course)
+
+print("\n===== PROFILE =====")
+print(profile)
+
+#input given by me in the vscode
+Enter your name: Souzan
+Enter your age: 18
+Enter your course: Python
+
+#output given by the vscode
+===== PROFILE =====
+Name: Souzan
+Age: 18
+Course: Python
