@@ -1,0 +1,28 @@
+# Employee Salary Calculator
+
+def calculate_bonus(salary):
+    return salary * 0.10
+
+def total_salary(salary):
+    bonus = calculate_bonus(salary)
+    return salary + bonus
+
+employee_name = input("Enter employee name: ")
+salary = float(input("Enter employee salary: "))
+
+total = total_salary(salary)
+
+print("\n===== EMPLOYEE DETAILS =====")
+print("Employee Name:", employee_name)
+print("Salary:", salary)
+print("Total Salary (with 10% bonus):", total)
+
+#what i entered in terminal
+Enter employee name: Souzan
+Enter employee salary: 30000
+
+#output given by the vscode
+===== EMPLOYEE DETAILS =====
+Employee Name: Souzan
+Salary: 30000.0
+Total Salary (with 10% bonus): 33000.0
