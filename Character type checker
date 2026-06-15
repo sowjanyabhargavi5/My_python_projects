@@ -17,7 +17,7 @@ else:
 
 print("\nProgram Completed Successfully!")
 
-#output given by the code
+#output given by the vscode
 CHARACTER TYPE CHECKER
 
 Enter a character: A
