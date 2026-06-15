@@ -35,9 +35,7 @@ Enter 1 for Deposit or 2 for Withdraw: 1
 Enter amount to deposit: 500
 
 #output by the vscode
-Current Balance = 1000
-Enter 1 for Deposit or 2 for Withdraw: 1
-Enter amount to deposit: 500
+Updated Balance = 1500.0
 
 #another run
 Current Balance = 1000
@@ -45,6 +43,4 @@ Enter 1 for Deposit or 2 for Withdraw: 2
 Enter amount to withdraw: 300
 
 #output given by the vscode
-Current Balance = 1000
-Enter 1 for Deposit or 2 for Withdraw: 2
-Enter amount to withdraw: 300
+Updated Balance = 700.0
