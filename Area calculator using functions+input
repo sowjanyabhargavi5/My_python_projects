@@ -1,0 +1,47 @@
+# Area Calculator
+
+def area_square(side):
+    return side * side
+
+def area_rectangle(length, width):
+    return length * width
+
+print("1. Square")
+print("2. Rectangle")
+
+choice = int(input("Enter your choice (1 or 2): "))
+
+if choice == 1:
+    side = float(input("Enter side of square: "))
+    area = area_square(side)
+    print("Area of Square =", area)
+
+elif choice == 2:
+    length = float(input("Enter length: "))
+    width = float(input("Enter width: "))
+    area = area_rectangle(length, width)
+    print("Area of Rectangle =", area)
+
+else:
+    print("Invalid Choice")
+
+
+#what i entered in terminal
+1. Square
+2. Rectangle
+Enter your choice (1 or 2): 1
+Enter side of square: 5
+
+
+#output given by the vscode
+Area of Square = 25.0
+
+#again what i entered in the terminal
+1. Square
+2. Rectangle
+Enter your choice (1 or 2): 2
+Enter length: 10
+Enter width: 5
+
+#output given by the vscode
+Area of Rectangle = 50.0
