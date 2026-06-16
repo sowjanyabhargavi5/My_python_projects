@@ -1,0 +1,46 @@
+#PRODUCT INVENTORY
+
+products=[]
+
+for i in range(3):
+
+    name=input("Enter product name: ")
+    price=int(input("Enter product price: "))
+
+    product=(name,price)
+
+    products.append(product)
+
+print("\nProduct List")
+
+for product in products:
+    print(product)
+
+print("\nProducts Above 100")
+
+for name,price in products:
+
+    if price>100:
+        print(name)
+
+#what i entered in the vscode terminal:
+Enter product name: Pen
+Enter product price: 20
+
+Enter product name: Bag
+Enter product price: 500
+
+Enter product name: Bottle
+Enter product price: 150
+
+#output given by the vscode:
+Product List
+
+('Pen', 20)
+('Bag', 500)
+('Bottle', 150)
+
+Products Above 100
+
+Bag
+Bottle
