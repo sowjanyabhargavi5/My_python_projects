@@ -1,0 +1,39 @@
+# =====================================
+# LIBRARY MANAGEMENT SYSTEM
+# =====================================
+
+books = {
+    "Python": 5,
+    "Java": 3,
+    "C++": 2,
+    "Data Science": 4
+}
+
+print("Available Books\n")
+
+for book, copies in books.items():
+    print(book, "-", copies, "copies")
+
+book_name = input("\nEnter book name: ")
+
+if book_name in books:
+    print("Available Copies :", books[book_name])
+else:
+    print("Book Not Found")
+
+print("\nProgram Completed Successfully!")
+
+
+##output given by the vscode
+Available Books
+
+Python - 5 copies
+Java - 3 copies
+C++ - 2 copies
+Data Science - 4 copies
+
+Enter book name: Python
+
+Available Copies : 5
+
+Program Completed Successfully!
