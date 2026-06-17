@@ -1,0 +1,35 @@
+# =====================================
+# STUDENT MARKS SYSTEM
+# =====================================
+
+marks = {
+    "Maths": 85,
+    "Science": 90,
+    "English": 78
+}
+
+print("Student Marks\n")
+
+for subject, mark in marks.items():
+    print(subject, ":", mark)
+
+total = 0
+
+for mark in marks.values():
+    total += mark
+
+print("\nTotal Marks :", total)
+
+print("\nProgram Completed Successfully!")
+
+
+#output given by the vscode
+Student Marks
+
+Maths : 85
+Science : 90
+English : 78
+
+Total Marks : 253
+
+Program Completed Successfully!
