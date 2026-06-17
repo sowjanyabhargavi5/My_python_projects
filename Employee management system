@@ -1,0 +1,40 @@
+# =====================================
+# EMPLOYEE MANAGEMENT SYSTEM
+# =====================================
+
+employees = {
+    "E101": {
+        "name": "Rahul",
+        "salary": 50000
+    },
+    "E102": {
+        "name": "Anjali",
+        "salary": 60000
+    },
+    "E103": {
+        "name": "Kiran",
+        "salary": 55000
+    }
+}
+
+emp_id = input("Enter Employee ID: ")
+
+if emp_id in employees:
+
+    print("\nEmployee Details")
+    print("Name :", employees[emp_id]["name"])
+    print("Salary :", employees[emp_id]["salary"])
+
+else:
+    print("Employee Not Found")
+
+print("\nProgram Completed Successfully!")
+
+#output given by the vscode
+Enter Employee ID: E102
+
+Employee Details
+Name : Anjali
+Salary : 60000
+
+Program Completed Successfully!
