@@ -1,0 +1,55 @@
+# =====================================
+# ONLINE STORE INVENTORY
+# =====================================
+
+products = {
+    "Laptop": 50000,
+    "Mobile": 25000,
+    "Headphones": 2000,
+    "Keyboard": 1500
+}
+
+print("PRODUCT LIST\n")
+
+for item, price in products.items():
+    print(item, "- ₹", price)
+
+product = input("\nEnter product name: ")
+
+if product in products:
+    print("Price = ₹", products[product])
+else:
+    print("Product Not Found")
+
+print("\nProgram Completed Successfully!")
+
+
+#output given by the vscode
+PRODUCT LIST
+
+Laptop - ₹ 50000
+Mobile - ₹ 25000
+Headphones - ₹ 2000
+Keyboard - ₹ 1500
+
+Enter product name: Laptop
+
+Price = ₹ 50000
+
+Program Completed Successfully!
+
+
+
+##another one
+PRODUCT LIST
+
+Laptop - ₹ 50000
+Mobile - ₹ 25000
+Headphones - ₹ 2000
+Keyboard - ₹ 1500
+
+Enter product name: Mouse
+
+Product Not Found
+
+Program Completed Successfully!
