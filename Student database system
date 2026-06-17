@@ -1,0 +1,65 @@
+# =====================================
+# STUDENT DATABASE SYSTEM
+# =====================================
+
+students = {
+    "Rahul": 85,
+    "Anjali": 92,
+    "Kiran": 76,
+    "Bhargavi": 95
+}
+
+name = input("Enter student name: ")
+
+if name in students:
+
+    marks = students[name]
+
+    print("Marks :", marks)
+
+    if marks >= 90:
+        print("Grade : A")
+    elif marks >= 75:
+        print("Grade : B")
+    else:
+        print("Grade : C")
+
+else:
+    print("Student Not Found")
+
+print("\nProgram Completed Successfully!")
+
+
+#output given by the vscode
+
+
+
+Enter student name: Bhargavi
+
+Marks : 95
+Grade : A
+
+Program Completed Successfully!
+
+
+
+#another try
+
+Enter student name: Rahul
+
+Marks : 85
+Grade : B
+
+Program Completed Successfully!
+
+
+
+
+#one more last try 
+
+Enter student name: Kiran
+
+Marks : 76
+Grade : B
+
+Program Completed Successfully!
