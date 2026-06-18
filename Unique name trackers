@@ -1,0 +1,37 @@
+#UNIQUE NAMES TRACKER
+
+names=set()
+
+for i in range(5):
+
+    name=input("Enter name: ")
+
+    names.add(name)
+
+print("\nUnique Names")
+
+for name in names:
+    print(name)
+
+print("\nTotal Unique Names:",len(names))
+
+
+
+
+##what i enetered in the terminal:
+Enter name: Bhargavi
+Enter name: Anu
+Enter name: Ravi
+Enter name: Bhargavi
+Enter name: Anu
+
+
+
+##output by the vscode:
+Unique Names
+
+Bhargavi
+Anu
+Ravi
+
+Total Unique Names: 3
