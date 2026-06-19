@@ -1,0 +1,27 @@
+#NOTES APP
+
+note=input("Write a note: ")
+
+file=open("notes.txt","a")
+
+file.write(note+"\n")
+
+file.close()
+
+print("Note Saved Successfully")
+
+file=open("notes.txt","r")
+
+print("\nSaved Notes")
+
+print(file.read())
+
+file.close()
+
+
+##entered in the vscode terminal input:
+Note Saved Successfully
+
+Saved Notes
+
+Learn Python Daily
