@@ -1,0 +1,21 @@
+#SIMPLE DIARY
+
+entry=input("Write today's diary entry: ")
+
+file=open("diary.txt","a")
+
+file.write(entry+"\n")
+
+file.close()
+
+print("Diary Saved")
+
+##what i entered in the vscode terminal input:
+
+Write today's diary entry: Today I learned File Handling in Python
+
+##output given by the vscode:
+Diary Saved
+
+##diary.txt:
+Today I learned File Handling in Python
