@@ -1,0 +1,18 @@
+#AGE VALIDATOR
+
+try:
+
+    age=int(input("Enter age: "))
+
+    if age<0:
+        raise ValueError
+
+    print("Age:",age)
+
+except ValueError:
+    print("Please enter a valid age")
+
+##output given by the vscode:
+Enter age: -5
+
+Please enter a valid age
