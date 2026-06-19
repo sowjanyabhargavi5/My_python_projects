@@ -1,0 +1,16 @@
+#DAILY EXPENSE TRACKER
+
+expense=input("Enter today's expense: ")
+
+file=open("expenses.txt","a")
+
+file.write(expense+"\n")
+
+file.close()
+
+print("Expense Saved")
+
+  ##output given by the vscode:
+Enter today's expense: 250
+
+Expense Saved
