@@ -1,0 +1,19 @@
+#STUDENT RECORD SAVER
+
+name=input("Enter name: ")
+age=input("Enter age: ")
+
+file=open("students.txt","a")
+
+file.write(name+" - "+age+"\n")
+
+file.close()
+
+print("Record Saved")
+
+
+##output given by the vscode:
+Enter name: Bhargavi
+Enter age: 20
+
+Record Saved
