@@ -1,0 +1,10 @@
+#DICE ROLLER
+
+import random
+
+dice=random.randint(1,6)
+
+print("Dice Number:",dice)
+
+#output
+Dice Number: 4
