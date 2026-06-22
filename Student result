@@ -1,0 +1,25 @@
+#STUDENT RESULT
+
+class Student:
+
+    def __init__(self,name,marks):
+
+        self.name=name
+        self.marks=marks
+
+    def result(self):
+
+        print("Name:",self.name)
+
+        if self.marks>=35:
+            print("Result: Pass")
+        else:
+            print("Result: Fail")
+
+student1=Student("Bhargavi",85)
+
+student1.result()
+
+##output given by the vscode:
+Name: Bhargavi
+Result: Pass
