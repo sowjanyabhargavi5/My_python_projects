@@ -1,0 +1,21 @@
+#CAR INFORMATION
+
+class Car:
+
+    def __init__(self,brand,model):
+
+        self.brand=brand
+        self.model=model
+
+    def display(self):
+
+        print("Brand:",self.brand)
+        print("Model:",self.model)
+
+car1=Car("Toyota","Innova")
+
+car1.display()
+
+##output given by the vscode:
+Brand: Toyota
+Model: Innova
